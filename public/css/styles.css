@@ -1,0 +1,40 @@
+.navbar h2{
+    color:  #F0F2F5;
+}
+
+body{
+    background-color:  #F0F2F5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 50px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+.card a{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.card:hover{
+    border-color: blue;
+    box-shadow:  7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input:hover{
+    border-color: blue;
+}
+
